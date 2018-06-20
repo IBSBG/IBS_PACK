@@ -1,0 +1,171 @@
+px;
+}
+.image-gallery-button-wrapper {
+    height: 50px;
+    text-align: left;
+    width: 100%;
+}
+.image-gallery-label-wrapper {
+    width: 44%;
+    display: inline-block;
+}
+.image-gallery-button-add, .image-gallery-button-submit {
+    background-color: #fff;
+    border: 1px solid #666;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    color: #666; 
+    font-size: 17px;
+    height: 37px;
+    line-height: 36px;
+    padding: 0 30px;
+    text-align: center;
+    width: 160px;
+}
+.image-gallery-button-submit { /*margin-left: 10px;*/ }
+#submit-button { display: none; }
+.image-gallery-button-add > input[type="file"]{    
+    /*font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;*/
+    display: none;    
+}
+
+#file-selected {
+    width: 80%;
+    display: initial;
+    padding-left: 10px;
+    color: #666; 
+}
+.image-gallery-button-submit > input {
+    display: none;
+}
+.image-gallery-button-add:hover, .image-gallery-button-submit:hover {
+    border: 1px solid #000;
+    text-decoration:none;
+    color: #000;
+}
+/*a.image-gallery-button-add-link {
+   color: #666; 
+   font-size: 17px;
+}
+a.image-gallery-button-add-link:hover {
+   text-decoration:none;
+   color: #000;
+}*/
+#galleryHeader {
+   font-size: 15px; 
+   font-weight: 400;
+}
+a.gallery-download-link {
+   color:#fff;
+   font-size: 14px; 
+   font-weight: 600;
+}
+a.gallery-download-link:hover, a.gallery-download-link:visited, a.gallery-download-link:focus {
+   text-decoration:none;
+   color:#fff !important;
+}
+
+/* gallery list */
+.gallerylist-result-wrapper { padding-bottom:10px; }
+.gallerylist-result { display:inline-block; width: 90px; }
+.gallerylist-result > a > img { width: 80px; height: 80px; }
+.gallerylist-result-title { display:inline-block; line-height:80px; vertical-align:top; }
+.gallerylist-delete-link { float: right; line-height: 80px; vertical-align:top; }
+</style> imageWidth px / 10);
+    height: calc( px / 10);
+}
+ul li {
+    list-style-type: none;
+}
+ul.galleryList li.thumbnail-active a, ul.galleryList li.thumbnail-active a:hover {
+    border-color: #01487f #01487f -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 3px 0;
+}
+ul.galleryList li a:hover span.imageNum, ul.galleryList li.thumbnail-active a, ul.galleryList li.thumbnail-active a span.imageNum {
+    background: #01487f none repeat scroll 0 0;
+}
+ul.galleryList li a {
+    float: left;
+    padding-bottom: 3px;
+    position: relative;
+}
+#metaDiv {
+    padding:10px; 
+    line-height:20px;
+    font-size:14px;
+    margin: 0 auto;
+    max-width:  imageHeight <style>
+.image-gallery-section {
+    padding: 20px 0 0 0;
+}
+.image-gallery-section-inner {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+.image-gallery-carousel {
+    /*display: inline-block;*/
+    padding-top: 12px;
+    vertical-align: top;
+}
+.image-gallery-title {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;    
+}
+.image-gallery-back-to-list-wrapper {
+    font-size: 17px;
+    padding-top: 10px;
+}
+ul.galleryList {
+    /*float: left;*/
+    margin-top: 30px !important;
+    padding: 0 !important;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+ul.galleryList li, ul.galleryList li a {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul.galleryList li {
+    /*padding: 7px;*/
+    padding: 6px 12px 6px 0;
+}
+ul.galleryList li a {   
+    background: #999 none repeat scroll 0 0;
+    border-color: #fff #fff -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 3px 0;
+    float: left;
+    padding-bottom: 5px;
+    position: relative;
+}
+ul.galleryList li a:hover {
+    background: #01487f none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+   
+span.imageNum {
+    background: #999 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    padding: 1px 4px 2px;
+    position: absolute;
+    right: 0;
+}
+.imageNum + img { 
+    width: calc( imageWidth 

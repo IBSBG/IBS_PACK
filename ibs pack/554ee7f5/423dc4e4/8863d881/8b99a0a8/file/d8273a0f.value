@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.HashMap version="1.0">
+   <entries>
+      <entry>
+         <key type="java.lang.String"><![CDATA[file#com.aptrix.pluto.cmpnt.FileResourceCmpnt]]></key>
+         <value type="com.aptrix.pluto.presentation.BinaryElementTemplate">
+            <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+               <m_attributes type="java.util.HashMap">
+                  <entries>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[BINARY_PROPERTY]]></key>
+                        <value type="com.aptrix.pluto.presentation.BinaryPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MIN_BYTES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_SELECTION_MODEL]]></key>
+                                          <value reference="17"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_BYTES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[ALLOWED_MIME_TYPES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_PREFERRED_CHOOSER_NAME]]></key>
+                                          <value reference="17"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[HELP_TEXT]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[IS_MANDATORY]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[IS_HIDDEN]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FILTER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK_EXIST]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></key>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FOLDER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_MANAGEMENT_OPTION]]></key>
+                                          <value type="java.lang.String"><![CDATA[CopyNow]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></key>
+                                          <value reference="10"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESTRICT_MIME_TYPES]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DISPLAY_SOURCE_DROPDOWN]]></key>
+                                          <value reference="14"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></key>
+                                          <value reference="10"/>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                  </entries>
+               </m_attributes>
+            </super>
+            
+         </value>
+      </entry>
+   </entries>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>10</key>
+            <value type="java.lang.String"><![CDATA[]]></value>
+         </entry>
+         <entry>
+            <key>14</key>
+            <value type="java.lang.Boolean">false</value>
+         </entry>
+         <entry>
+            <key>17</key>
+            <value type="java.lang.String"><![CDATA[FileSystem]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</java.util.HashMap>

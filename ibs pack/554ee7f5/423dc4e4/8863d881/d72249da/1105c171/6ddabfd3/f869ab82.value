@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.ArrayList version="1.0">
+   <entries>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1476435712115</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Copied from \/VP Template 2\/imageGallery\/imageGalleryThumbnails","MessageArgs":["\/VP Template 2\/imageGallery\/imageGalleryThumbnails"],"EventCode":1200}]]></m_message>
+         <m_name reference="4"/>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1476435712166</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Document created by wpadminl","MessageArgs":["wpadminl"],"EventCode":1100}]]></m_message>
+         <m_name reference="4"/>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1476437365356</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Document updated by wpadminl","MessageArgs":["wpadminl"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[wpadminl]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1476725041200</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Document updated by wpadminl","MessageArgs":["wpadminl"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[wpadminl]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1524696219781</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Document updated by wpadminl","MessageArgs":["wpadminl"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[wpadminl]]></m_name>
+      </entry>
+      <entry type="com.aptrix.history.LogEntry">
+         <m_date type="java.lang.Long">1524739528477</m_date>
+         <m_message type="java.lang.String"><![CDATA[{"DN":"uid=wpadminl,o=defaultWIMFileBasedRealm","Message":"Document updated by wpadminl","MessageArgs":["wpadminl"],"EventCode":1300}]]></m_message>
+         <m_name type="java.lang.String"><![CDATA[wpadminl]]></m_name>
+      </entry>
+   </entries>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>4</key>
+            <value type="java.lang.String"><![CDATA[wpadminl]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</java.util.ArrayList>

@@ -1,0 +1,86 @@
+);
+                jssor_1_slider.$ScaleWidth(refSize);
+            } else {
+                window.setTimeout(ScaleSlider, 30);
+            }
+        }
+        ScaleSlider();
+        $Jssor$.$AddEvent(window, "load", ScaleSlider);
+        $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+        $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+        //responsive code end
+    };
+
+     function sliderStateChange(slideIndex, progress, progressBegin, idleBegin, idleEnd, progressEnd) {
+            var metaText = 'current_slider_metaText_' + (slideIndex + 1);
+            var thumbnail = 'current_slider_thumbnail_' + (slideIndex + 1);
+            if (progress == progressBegin) {		
+	        if (document.getElementById(metaText) != undefined) {
+                    document.getElementById('metaDivText').innerHTML = document.getElementById(metaText).innerHTML;
+                } else {
+                   document.getElementById('metaDivText').innerHTML = '';
+                }
+                // inactivate all thumbnails
+                var x = document.getElementsByClassName("thumbnail-active");
+                var i;
+                for (i = 0; i < x.length; i++) {
+                    x[i].className = "";
+                }
+                if (document.getElementById(thumbnail) != undefined) { //activate current thumbnail
+                    document.getElementById(thumbnail).className='thumbnail-active';
+                }                    
+             }
+        }      
+
+    function image_slider_play(slideIndex) {
+         console.log("image_slider_play slideIndex " + slideIndex);
+         var currentIndex = jssor_1_slider.$CurrentIndex();
+         console.log("currentIndex " + currentIndex);
+         slideIndex = parseInt(slideIndex, 10) - 1;
+         console.log("slideIndex " + slideIndex);
+         if ((currentIndex > slideIndex && currentIndex - slideIndex > 2) || (slideIndex > currentIndex && slideIndex - currentIndex > 2)) {
+             jssor_1_slider.$GoTo(slideIndex); 
+             sliderStateChange(slideIndex, 1, 1);
+         } else {
+             jssor_1_slider.$PlayTo(slideIndex);
+         }
+    }
+</script> <script type="text/javascript">
+//http://www.jssor.com/development/reference-api.html
+var jssor_1_slider = null;
+jssor_1_slider_init = function() {                       
+	var jssor_1_SlideoTransitions = [];           
+        var jssor_1_options = {
+              $AutoPlay: false,
+              $Idle: 2000,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions,
+                $Breaks: [
+                  [{d:2000,b:1000}]
+                ]
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+        };
+                         
+        jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+        jssor_1_slider.$On($JssorSlider$.$EVT_STATE_CHANGE, sliderStateChange);
+
+        //fix for last arrow
+        var total = jssor_1_slider.$SlidesCount(); 
+        if (document.getElementById('move_right_' + total + '_a') != undefined) {
+            document.getElementById('move_right_' + total + '_a').href='';
+            document.getElementById('move_right_' + total + '_img').src='data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
+        }
+            
+        //responsive code begin
+        //you can remove responsive code if you don't want the slider scales while window resizing
+        function ScaleSlider() {
+            var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+            if (refSize) {
+                refSize = Math.min(refSize,  imageWidth 

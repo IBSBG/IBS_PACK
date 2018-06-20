@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.HashMap version="1.0">
+   <entries>
+      <entry>
+         <key type="java.lang.String"><![CDATA[Image#com.aptrix.pluto.cmpnt.ImageResourceCmpnt]]></key>
+         <value type="com.aptrix.pluto.presentation.ImageElementTemplate">
+            <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+               <m_attributes type="java.util.HashMap">
+                  <entries>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[FILE_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.BinaryPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_MAX_BYTES]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_PREFERRED_CHOOSER_NAME]]></key>
+                                          <value reference="46"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_WIDTH]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESTRICT_MIME_TYPES]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_max_bytes_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_pref_size_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_MAX_BYTES]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="18"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="10"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_max_bytes_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FILTER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MIN_BYTES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="14"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[ALLOWED_MIME_TYPES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_MAX_BYTES]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_pref_size_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_WIDTH]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_SELECTION_MODEL]]></key>
+                                          <value reference="46"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_HEIGHT]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="17"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_HEIGHT]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_WIDTH]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_BYTES]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="8"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RENDITION_MODE]]></key>
+                                          <value reference="9"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK_EXIST]]></key>
+                                          <value reference="9"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_max_bytes_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FOLDER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="15"/>
+                                          <value reference="9"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_pref_size_check]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DISPLAY_SOURCE_DROPDOWN]]></key>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="7"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_MANAGEMENT_OPTION]]></key>
+                                          <value type="java.lang.String"><![CDATA[CopyNow]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_HEIGHT]]></key>
+                                          <value reference="39"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="12"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[ALT_TEXT_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="17"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="29"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="27"/>
+                                          <value reference="28"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="25"/>
+                                          <value reference="26"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="30"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="22"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="18"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="8"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="15"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="10"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="7"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="14"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="24"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="12"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[HTML_TAG_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="10"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="25"/>
+                                          <value reference="26"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="14"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="8"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="29"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="27"/>
+                                          <value reference="28"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="15"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="17"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="22"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="7"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="18"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="24"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="30"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="12"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[BORDER_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.SimpleStringPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="15"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="18"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="10"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="7"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="12"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="8"/>
+                                          <value reference="9"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="17"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="14"/>
+                                          <value><null/></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[DIMENSIONS_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.SimpleStringPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="17"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="8"/>
+                                          <value reference="9"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="10"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="18"/>
+                                          <value reference="11"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="15"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="12"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="14"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="7"/>
+                                          <value><null/></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                  </entries>
+               </m_attributes>
+            </super>
+            
+         </value>
+      </entry>
+   </entries>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>7</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>8</key>
+            <value type="java.lang.String"><![CDATA[IS_HIDDEN]]></value>
+         </entry>
+         <entry>
+            <key>9</key>
+            <value type="java.lang.Boolean">true</value>
+         </entry>
+         <entry>
+            <key>10</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>11</key>
+            <value type="java.lang.String"><![CDATA[]]></value>
+         </entry>
+         <entry>
+            <key>12</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>14</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT]]></value>
+         </entry>
+         <entry>
+            <key>15</key>
+            <value type="java.lang.String"><![CDATA[IS_MANDATORY]]></value>
+         </entry>
+         <entry>
+            <key>16</key>
+            <value type="java.lang.Boolean">false</value>
+         </entry>
+         <entry>
+            <key>17</key>
+            <value type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></value>
+         </entry>
+         <entry>
+            <key>18</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>22</key>
+            <value type="java.lang.String"><![CDATA[MAX_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>24</key>
+            <value type="java.lang.String"><![CDATA[MAX_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>25</key>
+            <value type="java.lang.String"><![CDATA[HEIGHT]]></value>
+         </entry>
+         <entry>
+            <key>26</key>
+            <value type="java.lang.Integer">1</value>
+         </entry>
+         <entry>
+            <key>27</key>
+            <value type="java.lang.String"><![CDATA[WIDTH]]></value>
+         </entry>
+         <entry>
+            <key>28</key>
+            <value type="java.lang.Integer">50</value>
+         </entry>
+         <entry>
+            <key>29</key>
+            <value type="java.lang.String"><![CDATA[MIN_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>30</key>
+            <value type="java.lang.String"><![CDATA[MIN_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>39</key>
+            <value type="java.lang.Long">0</value>
+         </entry>
+         <entry>
+            <key>46</key>
+            <value type="java.lang.String"><![CDATA[FileSystem]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</java.util.HashMap>

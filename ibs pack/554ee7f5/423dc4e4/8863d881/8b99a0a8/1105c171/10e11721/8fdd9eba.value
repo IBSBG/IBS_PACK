@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<com.aptrix.pluto.presentation.MetaDataTemplate version="1.0">
+   <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+      <m_attributes type="java.util.HashMap">
+         <entries>
+            <entry>
+               <key type="java.lang.String"><![CDATA[DESCRIPTION_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="73"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="70"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[IS_HIDDEN]]></key>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="72"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="74"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[IS_MANDATORY]]></key>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="68"/>
+                                 <value reference="69"/>
+                              </entry>
+                              <entry>
+                                 <key reference="61"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="66"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="58"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="62"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="64"/>
+                                 <value type="java.lang.Integer">2</value>
+                              </entry>
+                              <entry>
+                                 <key reference="67"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[MAX_CHARS]]></key>
+                                 <value type="java.lang.Integer">1000</value>
+                              </entry>
+                              <entry>
+                                 <key reference="75"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="71"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[CURRENT_STAGE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[ALLOW_ANY_WORKFLOW]]></key>
+               <value reference="20"/>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[WORKFLOW_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SelectionPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="53"/>
+                                 <value reference="54"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="51"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[EFFECTIVE_DATE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.DatePropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="120"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="118"/>
+                                 <value reference="52"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[TYPE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[UUID_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[OWNERS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleCollectionPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="80"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[KEYWORDS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleCollectionPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="80"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[PARENT_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[GENERAL_DATE1_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.DatePropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="118"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="120"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[NEXT_STAGE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[DOC_STATUS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[SEARCH_VISIBILITY_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[EXPIRY_DATE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.DatePropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="118"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="120"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[ADDITIONAL_VIEWERS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[DISABLE_WORKFLOW]]></key>
+               <value reference="20"/>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[GENERAL_DATE2_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.DatePropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="120"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="118"/>
+                                 <value reference="52"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[PRESENTATION_OVERRIDE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[CATEGORY_SELECTION_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SelectionPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SINGLE_SELECTION]]></key>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="51"/>
+                                 <value reference="52"/>
+                              </entry>
+                              <entry>
+                                 <key reference="53"/>
+                                 <value reference="54"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[TOOLBAR_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.ToolbarPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[ADD_OR_REMOVE_WORKFLOW_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[PREVIOUS_STAGE_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[MANAGE_ELEMENTS_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[PREFERRED_SAVE_OPTION]]></key>
+                                 <value type="java.lang.String"><![CDATA[SAVE_AND_CLOSE_ACTION_FIELD]]></value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AS_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AND_READ_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AS_DRAFT_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[RESTART_WRKFLOW_CMD_LABEL]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[PREVIEW_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[ADD_TO_PROJECTS_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[APPLY_TEMPLATE_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[VIEW_LINKS_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AND_PUBLISH_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[BOTTOM_TOOLBAR]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[REVERSE_TOOLBAR_BUTTON_ORDER]]></key>
+                                 <value type="java.lang.Boolean">false</value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[TOP_TOOLBAR]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AND_CLOSE_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[SAVE_AND_VERSION_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[REVERT_TO_READ_ACTION_FIELD]]></key>
+                                 <value reference="25"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[AUTHORS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleCollectionPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="80"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[ACTIONS_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[ALLOW_ANY_CATEGORY]]></key>
+               <value reference="20"/>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[ADDITIONAL_PROPERTY_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.AdditionalTemplatePropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[FORCE_FIRST_STAGE_ON_SAVE_AS]]></key>
+                                 <value type="java.lang.Boolean">false</value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[DEFAULT_PRESENTATION_TEMPLATE]]></key>
+                                 <value type="com.aptrix.identity.IdentityReference">
+                                    <m_id type="java.lang.String"><![CDATA[e3965b5e-4dbb-4177-8945-77ef09ee604b]]></m_id>
+                                    <m_type type="java.lang.String"><![CDATA[com.aptrix.pluto.presentation.Style]]></m_type>
+                                 </value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[CREATE_UNDER_SITE]]></key>
+                                 <value type="java.lang.Boolean">true</value>
+                              </entry>
+                              <entry>
+                                 <key type="java.lang.String"><![CDATA[VERSIONING_STRATEGY]]></key>
+                                 <value type="java.lang.Integer">0</value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[LIBRARY_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[SECTION_HIDDEN_MAP]]></key>
+               <value type="java.util.HashMap">
+                  <entries>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[com.aptrix.pluto.security.SecurityControl]]></key>
+                        <value reference="7"/>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[com.aptrix.history.HistoryControl]]></key>
+                        <value reference="7"/>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[MAPPING_SECTION]]></key>
+                        <value reference="7"/>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[com.aptrix.pluto.workflow.WorkflowControl]]></key>
+                        <value reference="7"/>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[com.aptrix.pluto.taxonomy.ProfileControl]]></key>
+                        <value reference="7"/>
+                     </entry>
+                  </entries>
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[INCLUDE_IN_SEARCH_INDEX]]></key>
+               <value reference="20"/>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[JOINT_APPROVAL_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.SimpleObjectPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="5"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="15"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="14"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="12"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="10"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="8"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[TITLE_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="64"/>
+                                 <value reference="65"/>
+                              </entry>
+                              <entry>
+                                 <key reference="60"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="71"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="68"/>
+                                 <value reference="69"/>
+                              </entry>
+                              <entry>
+                                 <key reference="72"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="66"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="67"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="70"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="62"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="75"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="73"/>
+                                 <value reference="20"/>
+                              </entry>
+                              <entry>
+                                 <key reference="74"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="58"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="61"/>
+                                 <value reference="9"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+            <entry>
+               <key type="java.lang.String"><![CDATA[NAME_TEMPLATE]]></key>
+               <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                  <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                     <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                        <m_attributes type="java.util.HashMap">
+                           <entries>
+                              <entry>
+                                 <key reference="74"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="6"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="62"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="75"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="67"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="58"/>
+                                 <value type="java.lang.String"><![CDATA[NONE]]></value>
+                              </entry>
+                              <entry>
+                                 <key reference="68"/>
+                                 <value reference="69"/>
+                              </entry>
+                              <entry>
+                                 <key reference="72"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="13"/>
+                                 <value type="java.lang.Boolean">true</value>
+                              </entry>
+                              <entry>
+                                 <key reference="70"/>
+                                 <value reference="7"/>
+                              </entry>
+                              <entry>
+                                 <key reference="66"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="61"/>
+                                 <value reference="9"/>
+                              </entry>
+                              <entry>
+                                 <key reference="60"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="71"/>
+                                 <value><null/></value>
+                              </entry>
+                              <entry>
+                                 <key reference="64"/>
+                                 <value reference="65"/>
+                              </entry>
+                           </entries>
+                        </m_attributes>
+                     </super>
+                     <m_editors type="java.util.Set">
+                        <null/>
+                     </m_editors>
+                     <m_viewers type="java.util.Set">
+                        <null/>
+                     </m_viewers>
+                  </super>
+                  
+               </value>
+            </entry>
+         </entries>
+      </m_attributes>
+   </super>
+   
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>5</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>6</key>
+            <value type="java.lang.String"><![CDATA[IS_HIDDEN]]></value>
+         </entry>
+         <entry>
+            <key>7</key>
+            <value type="java.lang.Boolean">false</value>
+         </entry>
+         <entry>
+            <key>8</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>9</key>
+            <value type="java.lang.String"><![CDATA[]]></value>
+         </entry>
+         <entry>
+            <key>10</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>12</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT]]></value>
+         </entry>
+         <entry>
+            <key>13</key>
+            <value type="java.lang.String"><![CDATA[IS_MANDATORY]]></value>
+         </entry>
+         <entry>
+            <key>14</key>
+            <value type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></value>
+         </entry>
+         <entry>
+            <key>15</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>20</key>
+            <value type="java.lang.Boolean">true</value>
+         </entry>
+         <entry>
+            <key>25</key>
+            <value type="java.lang.Boolean">true</value>
+         </entry>
+         <entry>
+            <key>51</key>
+            <value type="java.lang.String"><![CDATA[LAYOUT]]></value>
+         </entry>
+         <entry>
+            <key>52</key>
+            <value type="java.lang.Integer">0</value>
+         </entry>
+         <entry>
+            <key>53</key>
+            <value type="java.lang.String"><![CDATA[OPTIONS]]></value>
+         </entry>
+         <entry>
+            <key>54</key>
+            <value type="[Lcom.aptrix.identity.IdentityReference;">
+               <entries>
+               </entries>
+            </value>
+         </entry>
+         <entry>
+            <key>58</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>60</key>
+            <value type="java.lang.String"><![CDATA[MAX_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>61</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>62</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>64</key>
+            <value type="java.lang.String"><![CDATA[HEIGHT]]></value>
+         </entry>
+         <entry>
+            <key>65</key>
+            <value type="java.lang.Integer">1</value>
+         </entry>
+         <entry>
+            <key>66</key>
+            <value type="java.lang.String"><![CDATA[MAX_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>67</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT]]></value>
+         </entry>
+         <entry>
+            <key>68</key>
+            <value type="java.lang.String"><![CDATA[WIDTH]]></value>
+         </entry>
+         <entry>
+            <key>69</key>
+            <value type="java.lang.Integer">50</value>
+         </entry>
+         <entry>
+            <key>70</key>
+            <value type="java.lang.String"><![CDATA[AUTO_FILL_FIELD]]></value>
+         </entry>
+         <entry>
+            <key>71</key>
+            <value type="java.lang.String"><![CDATA[MIN_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>72</key>
+            <value type="java.lang.String"><![CDATA[MIN_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>73</key>
+            <value type="java.lang.String"><![CDATA[LOCALIZATION_AVAILABLE]]></value>
+         </entry>
+         <entry>
+            <key>74</key>
+            <value type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></value>
+         </entry>
+         <entry>
+            <key>75</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>80</key>
+            <value type="java.lang.String"><![CDATA[AUTO_GENERATED_FIELD]]></value>
+         </entry>
+         <entry>
+            <key>118</key>
+            <value type="java.lang.String"><![CDATA[END_DATE_TYPE]]></value>
+         </entry>
+         <entry>
+            <key>120</key>
+            <value type="java.lang.String"><![CDATA[START_DATE_TYPE]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</com.aptrix.pluto.presentation.MetaDataTemplate>

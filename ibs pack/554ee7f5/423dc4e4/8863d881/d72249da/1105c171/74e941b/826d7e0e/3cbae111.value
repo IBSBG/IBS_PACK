@@ -1,0 +1,89 @@
+imageWidth <style>  
+       .cursor-pointer  {cursor:pointer;}
+        /* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */			
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;            
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url(' ') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }		
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }		
+		
+	.banner-slide-caption {
+	    position: absolute; bottom: 0; left: 0; width: 100%; height: auto; background-color: rgba(27,44,57,0.7); font-size: 20px; color: #ffffff; line-height: 20px; text-align: left;
+            font-size: 16px;
+            font-weight: 400;
+            min-height:60px;
+	}
+	.banner-slide-caption > div {
+			padding: 10px 35px;
+	}
+        #upcomingDiv{
+            max-width: px;
+            height:100px;
+            overflow:hidden;
+            display:inline-block;
+        }
+        #upcomingDivText{
+            padding:20px 35px;
+            font-size: 16px;
+            display:inline-block;
+        }
+        #upcomingDivTextHeading{
+            font-size: 16px;
+            font-weight: 500;
+        } 
+@media (max-width: 640px) {
+        #upcomingDivText,#upcomingDivTextHeading{font-size: 15px;}
+}
+@media (max-width: 480px) {
+        #upcomingDivText,#upcomingDivTextHeading{font-size: 14px;}
+        #upcomingDivText{padding:10px 20px;}
+}
+@media (max-width: 360px) {
+        #upcomingDivText,#upcomingDivTextHeading{font-size: 13px;}
+}
+</style> 

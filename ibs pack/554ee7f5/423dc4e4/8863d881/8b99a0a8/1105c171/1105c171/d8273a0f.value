@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.HashMap version="1.0">
+   <entries>
+      <entry>
+         <key type="java.lang.String"><![CDATA[imageHeight#com.aptrix.pluto.cmpnt.NumericCmpnt]]></key>
+         <value type="com.aptrix.pluto.presentation.NumericElementTemplate">
+            <super type="com.aptrix.pluto.presentation.AbstractCustomJSPElementTemplate">
+               <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                  <m_attributes type="java.util.HashMap">
+                     <entries>
+                        <entry>
+                           <key reference="17"/>
+                           <value type="com.aptrix.pluto.presentation.NumericPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                                 <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                    <m_attributes type="java.util.HashMap">
+                                       <entries>
+                                          <entry>
+                                             <key reference="37"/>
+                                             <value reference="16"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="30"/>
+                                             <value reference="31"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="20"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="25"/>
+                                             <value type="java.lang.Integer">1200</value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="36"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="32"/>
+                                             <value reference="33"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="21"/>
+                                             <value reference="16"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="34"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="29"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="27"/>
+                                             <value type="java.lang.Boolean">true</value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="24"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="22"/>
+                                             <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="35"/>
+                                             <value reference="31"/>
+                                          </entry>
+                                       </entries>
+                                    </m_attributes>
+                                 </super>
+                                 <m_editors type="java.util.Set">
+                                    <null/>
+                                 </m_editors>
+                                 <m_viewers type="java.util.Set">
+                                    <null/>
+                                 </m_viewers>
+                              </super>
+                              
+                           </value>
+                        </entry>
+                        <entry>
+                           <key reference="4"/>
+                           <value type="com.aptrix.pluto.cmpnt.JSPCmpnt">
+                              <super type="com.aptrix.pluto.cmpnt.Cmpnt">
+                                 <super type="com.aptrix.pluto.control.AbstractControllable">
+                                    <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                                       <null/>
+                                    </m_controlMap>
+                                    <m_dataVersion type="com.aptrix.version.Version">
+                                       <null/>
+                                    </m_dataVersion>
+                                    <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                                    <m_extraData type="java.util.HashMap">
+                                       <entries>
+                                       </entries>
+                                    </m_extraData>
+                                    <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                                    <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                                    <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                                    <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                                    <m_lazyControls type="java.util.Set">
+                                       <null/>
+                                    </m_lazyControls>
+                                    <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                                    <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                                    <m_lazyPendingWorkflowState reference="9"/>
+                                    <m_lazyWorkflowState reference="8"/>
+                                    <m_parentId type="com.aptrix.identity.IdentityReference">
+                                       <null/>
+                                    </m_parentId>
+                                    <m_searchable type="java.lang.Boolean">true</m_searchable>
+                                    <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+                                 </super>
+                                 <m_elementLocale type="java.util.Locale"><null/></m_elementLocale>
+                                 <m_internalUUID type="java.lang.String"><null/></m_internalUUID>
+                                 <m_name type="java.lang.String"><null/></m_name>
+                                 <m_textProviderKey type="java.lang.String"><null/></m_textProviderKey>
+                                 <m_textProviderName type="java.lang.String"><null/></m_textProviderName>
+                                 <m_title type="java.lang.String"><null/></m_title>
+                              </super>
+                              <m_errorMessage type="java.lang.String"><null/></m_errorMessage>
+                              <m_jspPath reference="16"/>
+                           </value>
+                        </entry>
+                     </entries>
+                  </m_attributes>
+               </super>
+               
+            </super>
+            
+         </value>
+      </entry>
+      <entry>
+         <key type="java.lang.String"><![CDATA[imageWidth#com.aptrix.pluto.cmpnt.NumericCmpnt]]></key>
+         <value type="com.aptrix.pluto.presentation.NumericElementTemplate">
+            <super type="com.aptrix.pluto.presentation.AbstractCustomJSPElementTemplate">
+               <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                  <m_attributes type="java.util.HashMap">
+                     <entries>
+                        <entry>
+                           <key reference="17"/>
+                           <value type="com.aptrix.pluto.presentation.NumericPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                                 <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                    <m_attributes type="java.util.HashMap">
+                                       <entries>
+                                          <entry>
+                                             <key reference="36"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="27"/>
+                                             <value type="java.lang.Boolean">true</value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="21"/>
+                                             <value reference="16"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="37"/>
+                                             <value reference="16"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="22"/>
+                                             <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="35"/>
+                                             <value reference="31"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="34"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="20"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="29"/>
+                                             <value><null/></value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="30"/>
+                                             <value reference="31"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="32"/>
+                                             <value reference="33"/>
+                                          </entry>
+                                          <entry>
+                                             <key reference="25"/>
+                                             <value type="java.lang.Integer">1900</value>
+                                          </entry>
+                                          <entry>
+                                             <key reference="24"/>
+                                             <value><null/></value>
+                                          </entry>
+                                       </entries>
+                                    </m_attributes>
+                                 </super>
+                                 <m_editors type="java.util.Set">
+                                    <null/>
+                                 </m_editors>
+                                 <m_viewers type="java.util.Set">
+                                    <null/>
+                                 </m_viewers>
+                              </super>
+                              
+                           </value>
+                        </entry>
+                        <entry>
+                           <key reference="4"/>
+                           <value type="com.aptrix.pluto.cmpnt.JSPCmpnt">
+                              <super type="com.aptrix.pluto.cmpnt.Cmpnt">
+                                 <super type="com.aptrix.pluto.control.AbstractControllable">
+                                    <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                                       <null/>
+                                    </m_controlMap>
+                                    <m_dataVersion type="com.aptrix.version.Version">
+                                       <null/>
+                                    </m_dataVersion>
+                                    <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                                    <m_extraData type="java.util.HashMap">
+                                       <entries>
+                                       </entries>
+                                    </m_extraData>
+                                    <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                                    <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                                    <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                                    <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                                    <m_lazyControls type="java.util.Set">
+                                       <null/>
+                                    </m_lazyControls>
+                                    <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                                    <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                                    <m_lazyPendingWorkflowState reference="9"/>
+                                    <m_lazyWorkflowState reference="8"/>
+                                    <m_parentId type="com.aptrix.identity.IdentityReference">
+                                       <null/>
+                                    </m_parentId>
+                                    <m_searchable type="java.lang.Boolean">true</m_searchable>
+                                    <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+                                 </super>
+                                 <m_elementLocale type="java.util.Locale"><null/></m_elementLocale>
+                                 <m_internalUUID type="java.lang.String"><null/></m_internalUUID>
+                                 <m_name type="java.lang.String"><null/></m_name>
+                                 <m_textProviderKey type="java.lang.String"><null/></m_textProviderKey>
+                                 <m_textProviderName type="java.lang.String"><null/></m_textProviderName>
+                                 <m_title type="java.lang.String"><null/></m_title>
+                              </super>
+                              <m_errorMessage type="java.lang.String"><null/></m_errorMessage>
+                              <m_jspPath reference="16"/>
+                           </value>
+                        </entry>
+                     </entries>
+                  </m_attributes>
+               </super>
+               
+            </super>
+            
+         </value>
+      </entry>
+      <entry>
+         <key type="java.lang.String"><![CDATA[preview#com.aptrix.pluto.cmpnt.ImageResourceCmpnt]]></key>
+         <value type="com.aptrix.pluto.presentation.ImageElementTemplate">
+            <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+               <m_attributes type="java.util.HashMap">
+                  <entries>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[FILE_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.BinaryPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="62"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="66"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RENDITION_MODE]]></key>
+                                          <value reference="33"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESTRICT_MIME_TYPES]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FOLDER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_HEIGHT]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_pref_size_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_WIDTH]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_WIDTH]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_WIDTH]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_MAX_BYTES]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_MANAGEMENT_OPTION]]></key>
+                                          <value type="java.lang.String"><![CDATA[CopyNow]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_pref_size_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_MAX_BYTES]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_pref_size_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_BYTES]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DISPLAY_SOURCE_DROPDOWN]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[DEFAULT_DAM_FILTER]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="67"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_max_bytes_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="63"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_HEIGHT]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="61"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="69"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="64"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_HEIGHT]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="68"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[tablet_max_bytes_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[desktop_max_bytes_check]]></key>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[ALLOWED_MIME_TYPES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MIN_BYTES]]></key>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_PREFERRED_CHOOSER_NAME]]></key>
+                                          <value reference="97"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[RESOURCE_SELECTION_MODEL]]></key>
+                                          <value reference="97"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[smartphone_MAX_BYTES]]></key>
+                                          <value reference="90"/>
+                                       </entry>
+                                       <entry>
+                                          <key type="java.lang.String"><![CDATA[MAX_FILE_SIZE_CHECK_EXIST]]></key>
+                                          <value reference="33"/>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[BORDER_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.SimpleStringPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="61"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="67"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="69"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="68"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="64"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="66"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="62"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="63"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[HTML_TAG_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="67"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="80"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="78"/>
+                                          <value reference="79"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="69"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="81"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="64"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="75"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="63"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="61"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="66"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="76"/>
+                                          <value reference="77"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="73"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="62"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="68"/>
+                                          <value><null/></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[DIMENSIONS_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.SimpleStringPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="69"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="63"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="67"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="66"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="61"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="68"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="64"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="62"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                     <entry>
+                        <key type="java.lang.String"><![CDATA[ALT_TEXT_TEMPLATE]]></key>
+                        <value type="com.aptrix.pluto.presentation.TextPropertyTemplate">
+                           <super type="com.aptrix.pluto.presentation.AbstractPropertyTemplate">
+                              <super type="com.aptrix.pluto.presentation.AbstractSerialisableTemplate">
+                                 <m_attributes type="java.util.HashMap">
+                                    <entries>
+                                       <entry>
+                                          <key reference="80"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="63"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="76"/>
+                                          <value reference="77"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="64"/>
+                                          <value type="java.lang.String"><![CDATA[NONE]]></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="81"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="78"/>
+                                          <value reference="79"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="69"/>
+                                          <value reference="16"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="73"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="75"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="61"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="67"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="62"/>
+                                          <value reference="31"/>
+                                       </entry>
+                                       <entry>
+                                          <key reference="66"/>
+                                          <value><null/></value>
+                                       </entry>
+                                       <entry>
+                                          <key reference="68"/>
+                                          <value><null/></value>
+                                       </entry>
+                                    </entries>
+                                 </m_attributes>
+                              </super>
+                              <m_editors type="java.util.Set">
+                                 <null/>
+                              </m_editors>
+                              <m_viewers type="java.util.Set">
+                                 <null/>
+                              </m_viewers>
+                           </super>
+                           
+                        </value>
+                     </entry>
+                  </entries>
+               </m_attributes>
+            </super>
+            
+         </value>
+      </entry>
+   </entries>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>4</key>
+            <value type="java.lang.String"><![CDATA[JSP_CMPNT]]></value>
+         </entry>
+         <entry>
+            <key>8</key>
+            <value enumType="com.ibm.workplace.wcm.data.WorkflowState" type="java.lang.Enum"><![CDATA[NONE]]></value>
+         </entry>
+         <entry>
+            <key>9</key>
+            <value enumType="com.ibm.workplace.wcm.data.PendingState" type="java.lang.Enum"><![CDATA[NOT_PENDING]]></value>
+         </entry>
+         <entry>
+            <key>16</key>
+            <value type="java.lang.String"><![CDATA[]]></value>
+         </entry>
+         <entry>
+            <key>17</key>
+            <value type="java.lang.String"><![CDATA[NUMERIC_PROPERTY_TEMPLATE]]></value>
+         </entry>
+         <entry>
+            <key>20</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>21</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>22</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>24</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT]]></value>
+         </entry>
+         <entry>
+            <key>25</key>
+            <value type="java.lang.String"><![CDATA[MAX_NUMBER]]></value>
+         </entry>
+         <entry>
+            <key>27</key>
+            <value type="java.lang.String"><![CDATA[IS_WHOLE_NUMBER_ONLY]]></value>
+         </entry>
+         <entry>
+            <key>29</key>
+            <value type="java.lang.String"><![CDATA[DECIMAL_PLACES]]></value>
+         </entry>
+         <entry>
+            <key>30</key>
+            <value type="java.lang.String"><![CDATA[IS_HIDDEN]]></value>
+         </entry>
+         <entry>
+            <key>31</key>
+            <value type="java.lang.Boolean">false</value>
+         </entry>
+         <entry>
+            <key>32</key>
+            <value type="java.lang.String"><![CDATA[USE_GROUPING]]></value>
+         </entry>
+         <entry>
+            <key>33</key>
+            <value type="java.lang.Boolean">true</value>
+         </entry>
+         <entry>
+            <key>34</key>
+            <value type="java.lang.String"><![CDATA[MIN_NUMBER]]></value>
+         </entry>
+         <entry>
+            <key>35</key>
+            <value type="java.lang.String"><![CDATA[IS_MANDATORY]]></value>
+         </entry>
+         <entry>
+            <key>36</key>
+            <value type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></value>
+         </entry>
+         <entry>
+            <key>37</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>61</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>62</key>
+            <value type="java.lang.String"><![CDATA[IS_HIDDEN]]></value>
+         </entry>
+         <entry>
+            <key>63</key>
+            <value type="java.lang.String"><![CDATA[LABEL_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>64</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_NAME]]></value>
+         </entry>
+         <entry>
+            <key>66</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT]]></value>
+         </entry>
+         <entry>
+            <key>67</key>
+            <value type="java.lang.String"><![CDATA[IS_MANDATORY]]></value>
+         </entry>
+         <entry>
+            <key>68</key>
+            <value type="java.lang.String"><![CDATA[ALTERNATE_LABEL]]></value>
+         </entry>
+         <entry>
+            <key>69</key>
+            <value type="java.lang.String"><![CDATA[HELP_TEXT_PROVIDER_KEY]]></value>
+         </entry>
+         <entry>
+            <key>73</key>
+            <value type="java.lang.String"><![CDATA[MAX_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>75</key>
+            <value type="java.lang.String"><![CDATA[MAX_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>76</key>
+            <value type="java.lang.String"><![CDATA[HEIGHT]]></value>
+         </entry>
+         <entry>
+            <key>77</key>
+            <value type="java.lang.Integer">1</value>
+         </entry>
+         <entry>
+            <key>78</key>
+            <value type="java.lang.String"><![CDATA[WIDTH]]></value>
+         </entry>
+         <entry>
+            <key>79</key>
+            <value type="java.lang.Integer">50</value>
+         </entry>
+         <entry>
+            <key>80</key>
+            <value type="java.lang.String"><![CDATA[MIN_CHARS]]></value>
+         </entry>
+         <entry>
+            <key>81</key>
+            <value type="java.lang.String"><![CDATA[MIN_WORDS]]></value>
+         </entry>
+         <entry>
+            <key>90</key>
+            <value type="java.lang.Long">0</value>
+         </entry>
+         <entry>
+            <key>97</key>
+            <value type="java.lang.String"><![CDATA[FileSystem]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</java.util.HashMap>

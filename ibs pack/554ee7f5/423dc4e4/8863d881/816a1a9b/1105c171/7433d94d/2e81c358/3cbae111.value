@@ -1,0 +1,81 @@
+</a>';
+        }
+      }
+      
+   }
+   document.addEventListener("DOMContentLoaded", function() {
+      generateBackUrl();
+      var addButton = document.getElementById("add-button");
+      if (max) addButton.style.display = 'none';
+      /*
+      var galleryList = document.getElementsByClassName("galleryList");
+      var count = 0;
+      if (addButton != null && galleryList != null) {
+          console.log("button " + galleryList[0].length);
+          for (i = 0; i < galleryList[0].length; i++) {
+              if (galleryList[0].childNode[i].nodeType == 1) {
+                  console.log("node");
+                  count++;   
+              }
+          }
+          if (count >= 20) {
+              addButton.style.display = 'none';
+          }
+      } */
+   });
+   
+</script> </div>
+                <div style="display:inline-block"> </div>
+            <div>
+             </a>
+                </div>
+            </div>
+            
+            <div style="border:1px solid #ccc; width: 100px; height: 30px; display: inline-block; ">
+                 
+                   <a class="image-gallery-button-add-link" href=" 
+            <div class="image-gallery-title">
+                <div style="display:inline-block"> 
+             <div class="image-gallery-title"> imageHeight " width="46" height="30" /> imageWidth </div>
+             
+            <div> 
+            <div id="back-link" class="image-gallery-back-to-list-wrapper">
+               
+            </div>
+             
+            </div>
+            <div style="border:1px solid #ccc; width: 100px; height: 30px; display: inline-block; ">
+                 com.ibm.workplace.wcm.api.WCM_SiteArea/ <img src=" 
+                   </div>
+            </div>
+            
+            <div id="add-button" div class="image-gallery-button-wrapper">
+                <div class="image-gallery-button-add">
+                  imageHeight preview 
+                 
+             
+
+
+<div class="image-gallery-section">
+    <div class="image-gallery-section-inner">
+        <div class="image-gallery-carousel">
+             
+                 <a href="' + currentUrl + '"> < Back 
+            </div>
+             imageWidth ">+ Add image </div>
+        </div>
+    </div>
+</div>
+
+<script>
+   if (document.getElementById('jssor_1') != undefined) {jssor_1_slider_init();}
+   function generateBackUrl(){
+      console.log("back");
+      var currentUrl = document.location.href;
+      //if there is no gallery list, don't show back
+      if (currentUrl.indexOf('imagegallerylist') != -1) {
+         currentUrl = currentUrl.substring(0, currentUrl.indexOf('/imagegallerylist') + 17);
+        var backLink = document.getElementById("back-link");
+        if (backLink != null) {
+            console.log("gen " + currentUrl);
+            backLink.innerHTML = ' preview 

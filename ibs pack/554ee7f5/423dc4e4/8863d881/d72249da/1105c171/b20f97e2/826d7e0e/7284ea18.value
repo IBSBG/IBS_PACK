@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<java.util.ArrayList version="1.0">
+   <entries>
+      <entry builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+         <m_text><![CDATA[<style>
+.image-gallery-section {
+    padding: 20px 0 0 0;
+}
+.image-gallery-section-inner {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+.image-gallery-carousel {
+    /*display: inline-block;*/
+    padding-top: 12px;
+    vertical-align: top;
+}
+.image-gallery-title {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 20px;    
+}
+.image-gallery-back-to-list-wrapper {
+    font-size: 17px;
+    padding-top: 10px;
+}
+ul.galleryList {
+    /*float: left;*/
+    margin-top: 30px !important;
+    padding: 0 !important;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+ul.galleryList li, ul.galleryList li a {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul.galleryList li {
+    /*padding: 7px;*/
+    padding: 6px 12px 6px 0;
+}
+ul.galleryList li a {   
+    background: #999 none repeat scroll 0 0;
+    border-color: #fff #fff -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 3px 0;
+    float: left;
+    padding-bottom: 5px;
+    position: relative;
+}
+ul.galleryList li a:hover {
+    background: #01487f none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+   
+span.imageNum {
+    background: #999 none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 10px;
+    padding: 1px 4px 2px;
+    position: absolute;
+    right: 0;
+}
+.imageNum + img { 
+    width: calc(]]></m_text>
+      </entry>
+      <entry type="com.aptrix.pluto.cmpnt.CmpntReference">
+         <super type="com.aptrix.pluto.cmpnt.BaseReferenceCmpnt">
+            <super type="com.aptrix.pluto.cmpnt.Cmpnt">
+               <super type="com.aptrix.pluto.control.AbstractControllable">
+                  <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                     <null/>
+                  </m_controlMap>
+                  <m_dataVersion type="com.aptrix.version.Version">
+                     <null/>
+                  </m_dataVersion>
+                  <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                  <m_extraData type="java.util.HashMap">
+                     <entries>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_type]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_context]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_key]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                     </entries>
+                  </m_extraData>
+                  <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                  <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                  <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                  <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                  <m_lazyControls type="java.util.Set">
+                     <null/>
+                  </m_lazyControls>
+                  <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                  <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                  <m_lazyPendingWorkflowState reference="6"/>
+                  <m_lazyWorkflowState reference="5"/>
+                  <m_parentId type="com.aptrix.identity.IdentityReference">
+                     <null/>
+                  </m_parentId>
+                  <m_searchable type="java.lang.Boolean">true</m_searchable>
+                  <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+               </super>
+               <m_elementLocale type="java.util.Locale"><null/></m_elementLocale>
+               <m_internalUUID type="java.lang.String"><null/></m_internalUUID>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_textProviderKey type="java.lang.String"><null/></m_textProviderKey>
+               <m_textProviderName type="java.lang.String"><null/></m_textProviderName>
+               <m_title type="java.lang.String"><null/></m_title>
+            </super>
+            <m_WCMContextResolver type="com.ibm.workplace.wcm.resolver.WCMContextResolver">
+               <null/>
+            </m_WCMContextResolver>
+            <m_awarenessEnabled type="java.lang.Boolean">false</m_awarenessEnabled>
+            <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+            <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+            <m_elementLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">2</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_elementLinkDereferenceInfo>
+            <m_encode type="java.lang.Boolean"><null/></m_encode>
+            <m_end type="java.lang.String"><null/></m_end>
+            <m_extraAttributes type="java.util.HashMap">
+               <entries>
+               </entries>
+            </m_extraAttributes>
+            <m_fieldLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">1</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_fieldLinkDereferenceInfo>
+            <m_format type="java.lang.String"><null/></m_format>
+            <m_ifEmpty type="java.lang.String"><null/></m_ifEmpty>
+            <m_isConsumed type="java.lang.Boolean">true</m_isConsumed>
+            <m_linkResolution type="java.lang.String"><null/></m_linkResolution>
+            <m_rendition type="java.lang.String"><null/></m_rendition>
+            <m_separator type="java.lang.String"><null/></m_separator>
+            <m_source type="java.lang.Object"><null/></m_source>
+            <m_sourceContext reference="20"/>
+            <m_sourceType reference="22"/>
+            <m_start type="java.lang.String"><null/></m_start>
+            <m_styles type="java.lang.String"><null/></m_styles>
+         </super>
+         <m_referenceKey builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+            <m_text><![CDATA[imageWidth]]></m_text>
+         </m_referenceKey>
+      </entry>
+      <entry builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+         <m_text><![CDATA[px / 10);
+    height: calc(]]></m_text>
+      </entry>
+      <entry type="com.aptrix.pluto.cmpnt.CmpntReference">
+         <super type="com.aptrix.pluto.cmpnt.BaseReferenceCmpnt">
+            <super type="com.aptrix.pluto.cmpnt.Cmpnt">
+               <super type="com.aptrix.pluto.control.AbstractControllable">
+                  <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                     <null/>
+                  </m_controlMap>
+                  <m_dataVersion type="com.aptrix.version.Version">
+                     <null/>
+                  </m_dataVersion>
+                  <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                  <m_extraData type="java.util.HashMap">
+                     <entries>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_type]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_key]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_context]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                     </entries>
+                  </m_extraData>
+                  <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                  <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                  <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                  <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                  <m_lazyControls type="java.util.Set">
+                     <null/>
+                  </m_lazyControls>
+                  <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                  <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                  <m_lazyPendingWorkflowState reference="6"/>
+                  <m_lazyWorkflowState reference="5"/>
+                  <m_parentId type="com.aptrix.identity.IdentityReference">
+                     <null/>
+                  </m_parentId>
+                  <m_searchable type="java.lang.Boolean">true</m_searchable>
+                  <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+               </super>
+               <m_elementLocale type="java.util.Locale"><null/></m_elementLocale>
+               <m_internalUUID type="java.lang.String"><null/></m_internalUUID>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_textProviderKey type="java.lang.String"><null/></m_textProviderKey>
+               <m_textProviderName type="java.lang.String"><null/></m_textProviderName>
+               <m_title type="java.lang.String"><null/></m_title>
+            </super>
+            <m_WCMContextResolver type="com.ibm.workplace.wcm.resolver.WCMContextResolver">
+               <null/>
+            </m_WCMContextResolver>
+            <m_awarenessEnabled type="java.lang.Boolean">false</m_awarenessEnabled>
+            <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+            <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+            <m_elementLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">2</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_elementLinkDereferenceInfo>
+            <m_encode type="java.lang.Boolean"><null/></m_encode>
+            <m_end type="java.lang.String"><null/></m_end>
+            <m_extraAttributes type="java.util.HashMap">
+               <entries>
+               </entries>
+            </m_extraAttributes>
+            <m_fieldLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">1</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_fieldLinkDereferenceInfo>
+            <m_format type="java.lang.String"><null/></m_format>
+            <m_ifEmpty type="java.lang.String"><null/></m_ifEmpty>
+            <m_isConsumed type="java.lang.Boolean">true</m_isConsumed>
+            <m_linkResolution type="java.lang.String"><null/></m_linkResolution>
+            <m_rendition type="java.lang.String"><null/></m_rendition>
+            <m_separator type="java.lang.String"><null/></m_separator>
+            <m_source type="java.lang.Object"><null/></m_source>
+            <m_sourceContext reference="20"/>
+            <m_sourceType reference="22"/>
+            <m_start type="java.lang.String"><null/></m_start>
+            <m_styles type="java.lang.String"><null/></m_styles>
+         </super>
+         <m_referenceKey builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+            <m_text><![CDATA[imageHeight]]></m_text>
+         </m_referenceKey>
+      </entry>
+      <entry builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+         <m_text><![CDATA[px / 10);
+}
+ul li {
+    list-style-type: none;
+}
+ul.galleryList li.thumbnail-active a, ul.galleryList li.thumbnail-active a:hover {
+    border-color: #01487f #01487f -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 3px 0;
+}
+ul.galleryList li a:hover span.imageNum, ul.galleryList li.thumbnail-active a, ul.galleryList li.thumbnail-active a span.imageNum {
+    background: #01487f none repeat scroll 0 0;
+}
+ul.galleryList li a {
+    float: left;
+    padding-bottom: 3px;
+    position: relative;
+}
+#metaDiv {
+    padding:10px; 
+    line-height:20px;
+    font-size:14px;
+    margin: 0 auto;
+    max-width: ]]></m_text>
+      </entry>
+      <entry type="com.aptrix.pluto.cmpnt.CmpntReference">
+         <super type="com.aptrix.pluto.cmpnt.BaseReferenceCmpnt">
+            <super type="com.aptrix.pluto.cmpnt.Cmpnt">
+               <super type="com.aptrix.pluto.control.AbstractControllable">
+                  <m_controlMap type="com.aptrix.pluto.control.ControlMap">
+                     <null/>
+                  </m_controlMap>
+                  <m_dataVersion type="com.aptrix.version.Version">
+                     <null/>
+                  </m_dataVersion>
+                  <m_enableDirtyTracking type="java.lang.Boolean">true</m_enableDirtyTracking>
+                  <m_extraData type="java.util.HashMap">
+                     <entries>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_key]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_type]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                        <entry>
+                           <key type="java.lang.String"><![CDATA[delimiter_context]]></key>
+                           <value type="java.lang.String"><![CDATA["]]></value>
+                        </entry>
+                     </entries>
+                  </m_extraData>
+                  <m_isCheckedOut type="java.lang.Boolean">false</m_isCheckedOut>
+                  <m_isNew type="java.lang.Boolean"><null/></m_isNew>
+                  <m_isVersion type="java.lang.Boolean">false</m_isVersion>
+                  <m_isVirtual type="java.lang.Boolean">false</m_isVirtual>
+                  <m_lazyControls type="java.util.Set">
+                     <null/>
+                  </m_lazyControls>
+                  <m_lazyLastModifiedDate type="java.lang.Long">-1</m_lazyLastModifiedDate>
+                  <m_lazyLastModifier type="java.lang.String"><null/></m_lazyLastModifier>
+                  <m_lazyPendingWorkflowState reference="6"/>
+                  <m_lazyWorkflowState reference="5"/>
+                  <m_parentId type="com.aptrix.identity.IdentityReference">
+                     <null/>
+                  </m_parentId>
+                  <m_searchable type="java.lang.Boolean">true</m_searchable>
+                  <m_validationRequired type="java.lang.Boolean">true</m_validationRequired>
+               </super>
+               <m_elementLocale type="java.util.Locale"><null/></m_elementLocale>
+               <m_internalUUID type="java.lang.String"><null/></m_internalUUID>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_textProviderKey type="java.lang.String"><null/></m_textProviderKey>
+               <m_textProviderName type="java.lang.String"><null/></m_textProviderName>
+               <m_title type="java.lang.String"><null/></m_title>
+            </super>
+            <m_WCMContextResolver type="com.ibm.workplace.wcm.resolver.WCMContextResolver">
+               <null/>
+            </m_WCMContextResolver>
+            <m_awarenessEnabled type="java.lang.Boolean">false</m_awarenessEnabled>
+            <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+            <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+            <m_elementLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">2</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_elementLinkDereferenceInfo>
+            <m_encode type="java.lang.Boolean"><null/></m_encode>
+            <m_end type="java.lang.String"><null/></m_end>
+            <m_extraAttributes type="java.util.HashMap">
+               <entries>
+               </entries>
+            </m_extraAttributes>
+            <m_fieldLinkDereferenceInfo type="com.aptrix.pluto.cmpnt.LinkDereferenceInfo">
+               <m_awareness type="java.lang.Boolean">false</m_awareness>
+               <m_computeAlways type="java.lang.Boolean">false</m_computeAlways>
+               <m_convertToMimeType type="java.lang.String"><null/></m_convertToMimeType>
+               <m_encode type="java.lang.Boolean">false</m_encode>
+               <m_format type="java.lang.String"><null/></m_format>
+               <m_linkDereferenceType type="java.lang.Integer">1</m_linkDereferenceType>
+               <m_name type="java.lang.String"><null/></m_name>
+               <m_separator type="java.lang.String"><null/></m_separator>
+            </m_fieldLinkDereferenceInfo>
+            <m_format type="java.lang.String"><null/></m_format>
+            <m_ifEmpty type="java.lang.String"><null/></m_ifEmpty>
+            <m_isConsumed type="java.lang.Boolean">true</m_isConsumed>
+            <m_linkResolution type="java.lang.String"><null/></m_linkResolution>
+            <m_rendition type="java.lang.String"><null/></m_rendition>
+            <m_separator type="java.lang.String"><null/></m_separator>
+            <m_source type="java.lang.Object"><null/></m_source>
+            <m_sourceContext reference="20"/>
+            <m_sourceType reference="22"/>
+            <m_start type="java.lang.String"><null/></m_start>
+            <m_styles type="java.lang.String"><null/></m_styles>
+         </super>
+         <m_referenceKey builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+            <m_text><![CDATA[imageWidth]]></m_text>
+         </m_referenceKey>
+      </entry>
+      <entry builder="com.aptrix.pluto.cmpnt.xml.TextCmpntBuilder">
+         <m_text><![CDATA[px;
+}
+.image-gallery-button-wrapper {
+    height: 50px;
+    text-align: left;
+    width: 100%;
+}
+.image-gallery-label-wrapper {
+    width: 44%;
+    display: inline-block;
+}
+.image-gallery-button-add, .image-gallery-button-submit {
+    background-color: #fff;
+    border: 1px solid #666;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    color: #666; 
+    font-size: 17px;
+    height: 37px;
+    line-height: 36px;
+    padding: 0 30px;
+    text-align: center;
+    width: 160px;
+}
+.image-gallery-button-submit { /*margin-left: 10px;*/ }
+#submit-button { display: none; }
+.image-gallery-button-add > input[type="file"]{    
+    /*font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;*/
+    display: none;    
+}
+
+#file-selected {
+    width: 80%;
+    display: initial;
+    padding-left: 10px;
+    color: #666; 
+}
+.image-gallery-button-submit > input {
+    display: none;
+}
+.image-gallery-button-add:hover, .image-gallery-button-submit:hover {
+    border: 1px solid #000;
+    text-decoration:none;
+    color: #000;
+}
+/*a.image-gallery-button-add-link {
+   color: #666; 
+   font-size: 17px;
+}
+a.image-gallery-button-add-link:hover {
+   text-decoration:none;
+   color: #000;
+}*/
+#galleryHeader {
+   font-size: 15px; 
+   font-weight: 400;
+}
+a.gallery-download-link {
+   color:#fff;
+   font-size: 14px; 
+   font-weight: 600;
+}
+a.gallery-download-link:hover, a.gallery-download-link:visited, a.gallery-download-link:focus {
+   text-decoration:none;
+   color:#fff !important;
+}
+
+/* gallery list */
+.gallerylist-result-wrapper { padding-bottom:10px; }
+.gallerylist-result { display:inline-block; width: 90px; }
+.gallerylist-result > a > img { width: 80px; height: 80px; }
+.gallerylist-result-title { display:inline-block; line-height:80px; vertical-align:top; }
+.gallerylist-delete-link { float: right; line-height: 80px; vertical-align:top; }
+</style>]]></m_text>
+      </entry>
+   </entries>
+
+   <ReferenceTable>
+      <entries>
+         <entry>
+            <key>5</key>
+            <value enumType="com.ibm.workplace.wcm.data.WorkflowState" type="java.lang.Enum"><![CDATA[NONE]]></value>
+         </entry>
+         <entry>
+            <key>6</key>
+            <value enumType="com.ibm.workplace.wcm.data.PendingState" type="java.lang.Enum"><![CDATA[NOT_PENDING]]></value>
+         </entry>
+         <entry>
+            <key>20</key>
+            <value type="java.lang.String"><![CDATA[current]]></value>
+         </entry>
+         <entry>
+            <key>22</key>
+            <value type="java.lang.String"><![CDATA[content]]></value>
+         </entry>
+      </entries>
+   </ReferenceTable>
+</java.util.ArrayList>
